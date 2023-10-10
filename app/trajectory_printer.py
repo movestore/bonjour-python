@@ -6,4 +6,4 @@ class TrajectoryPrinter:
 
     @staticmethod
     def print(traj: Trajectory) -> str:
-        return f'{traj.id}: {traj}'
+        return f'{traj.id}: {traj.crs} [{traj.get_bbox()}]'

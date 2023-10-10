@@ -19,4 +19,4 @@ class TestTrajectoryPrinter(TestCase):
         actual: str = self.sut.print(test_data.trajectories[1])
 
         # verify
-        self.assertTrue(actual.startswith("746: Trajectory 746"))
+        self.assertEqual("746: +proj=longlat +datum=WGS84 +no_defs [(5.5264, 52.772567, 51.788083, 69.130133)]", actual)
