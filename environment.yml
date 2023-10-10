@@ -5,5 +5,5 @@ dependencies:
   - python=3.10
   - pandas
   - geopandas
-  - movingpandas
+  - movingpandas=0.17.1
   - pluggy
